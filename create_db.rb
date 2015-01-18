@@ -3,7 +3,7 @@
 require 'sqlite3'
 require 'fileutils'
 
-FileUtils::rm_r 'db'
+FileUtils::rm_rf 'db'
 FileUtils::mkdir_p 'db'
 
 db = SQLite3::Database.new "db/website_history.db"
