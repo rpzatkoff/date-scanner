@@ -1,9 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-ruby '2.1.4'
-
+ruby '1.9.3'
+gem 'mechanize', '~> 2.7.3'
+gem 'sqlite3', '~> 1.3.10'
+gem 'diffy', '~> 3.0.7'
+gem 'daemons', '~> 1.1.9'
 gem 'promise', '~> 0.3.1'
-gem 'nokogiri', '~> 1.6.5'
 gem 'chronic', '~> 0.10.2'
 gem 'parallel', '~> 1.3.3'
 gem 'ruby-progressbar', '~> 1.7.1'
+gem 'sanitize', '~> 3.1.0'
